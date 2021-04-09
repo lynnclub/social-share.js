@@ -1,0 +1,59 @@
+{
+  "name": "social-share.js",
+  "description": "create social share buttons on your site.",
+  "version": "1.0.0",
+  "main": "dist/js/share.min.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "webpack --env=lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynncho/social-share.js"
+  },
+  "keywords": [
+    "sns",
+    "share",
+    "weibo",
+    "qq",
+    "douban",
+    "qzone",
+    "linkedin",
+    "facebook",
+    "google",
+    "NativeShare"
+  ],
+  "author": "lynncho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lynncho/social-share.js/issues"
+  },
+  "homepage": "https://github.com/lynncho/social-share.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-combine-media-queries": "*",
+    "gulp-concat": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-size": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "path": "^0.12.7",
+    "webpack-stream": "^6.1.2"
+  }
+}
