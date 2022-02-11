@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "dist/js/share.min.js",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
